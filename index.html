@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla Splash Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="floating">
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fa-brands fa-firefox-browser"></i> Mozilla Foundation
+            </div>
+            <a href="#initiatives"><i class="fa-solid fa-lightbulb"></i> Initiatives</a>
+            <a href="#video"><i class="fa-solid fa-video"></i> Media</a>
+            <a href="#community"><i class="fa-solid fa-users"></i> Community</a>
+            <a href="https://www.mozilla.org/en-US/firefox/" target="_blank" class="cta-nav">Get Firefox</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>The Web is Yours to Build!</h1>
+                <p>We are a global community of technologists, thinkers, and builders working together to keep the Internet a global public resource—open, secure, and accessible to all.</p>
+                <a href="#community" class="hero-cta primary"><i class="fa-solid fa-handshake"></i> Get Involved Now!</a>
+            </div>
+            <div class="hero-image-container">
+                <i class="fa-brands fa-firefox-browser hero-image"></i>
+            </div>
+        </section>
+
+        <section id="initiatives" class="initiatives-section">
+            <h2>Core Initiatives</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <i class="fa-solid fa-shield-halved fa-2x"></i>
+                    <h3>User Privacy & Security</h3>
+                    <p>Building products like Firefox that put user control and privacy first, blocking invasive trackers by default.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-code fa-2x"></i>
+                    <h3>Developer Education (MDN)</h3>
+                    <p>Maintaining the MDN Web Docs, the most comprehensive and trusted resource for web developers globally.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-earth-americas fa-2x"></i>
+                    <h3>Open Standards & Culture</h3>
+                    <p>Advocating for a decentralized, ethical internet by supporting non-proprietary standards and open-source software.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="video-section">
+            <h2><i class="fa-solid fa-circle-play"></i> The Story of Firefox</h2>
+            <p>Understand the history and the mission behind one of the world's most influential open-source projects.</p>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/LBg8vKHiidI?modestbranding=1" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="community" class="community-section">
+            <h2><i class="fa-solid fa-users-gear"></i> Join Our Global Community</h2>
+            <p>The Mozilla ecosystem is powered by thousands of dedicated contributors worldwide. Whether you code, translate, test, or advocate, your passion helps shape the future of the internet.</p>
+            <div class="cta-links">
+                <a href="#" class="cta-link primary"><i class="fa-brands fa-github"></i> Contribute on GitHub!</a>
+                <a href="#" class="cta-link secondary"><i class="fa-solid fa-comments"></i> Visit Community Forums!</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p><i class="fa-solid fa-copyright"></i> 2024 Mozilla Foundation. Content is licensed under Creative Commons.</p>
+            <p>A project dedicated to the principles of the Open Web.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
